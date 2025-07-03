@@ -8,3 +8,29 @@
     tiene yellow
  E- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
     quedo el matias-favicon.png
+
+ F- ¿Algún integrante tuvo problemas al hacer el push?
+ todos menos alfa tuvieron un problema al hacer el push
+ G- ¿Qué problemas surgieron?
+ da error porque si intento hacer un push sobre una rama que recibio actualizaciones
+
+ ! [rejected]        TESTING -> TESTING (fetch first)
+error: failed to push some refs to 'https://github.com/ferreira-20/TP_SO_I4Equip
+o_109.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+ 
+ H- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+ adoptada?
+Una solucion seria usar el comando "git pull --rebase"
+Otra solucion seria hacer el pull y despues el push
+Y la otra seria usar el push -f
+
+ I- ¿Qué sucede si cada uno utiliza el push-f?
+queda el cambio del ultimo que forzo el push y borra los anteriores del history
+ J- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+ en DESARROLLO ?
+cada uno que haga el push tiene que tener actualizada la rama para no pisar el push de los demas, despues hay que hacer el merge de TESTING a DESARROLLO y despues hacer el push en la misma rama de DESARROLLO
